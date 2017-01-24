@@ -22,7 +22,7 @@
             "database"
         ],
         "psr-4": {
-            "Coravel\\": "app/"
+            "App\\": "app/"
         }
     },
     "autoload-dev": {

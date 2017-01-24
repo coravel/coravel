@@ -167,16 +167,17 @@ return [
          * Package Service Providers...
          */
 
+        TCG\Voyager\VoyagerServiceProvider::class,
         //
 
         /*
          * Application Service Providers...
          */
-        Coravel\Providers\AppServiceProvider::class,
-        Coravel\Providers\AuthServiceProvider::class,
-        // Coravel\Providers\BroadcastServiceProvider::class,
-        Coravel\Providers\EventServiceProvider::class,
-        Coravel\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
 
     ],
 
